@@ -5,7 +5,7 @@ def mean_squared_error_gd(y, tx, initial_w, max_iters, gamma):
 
 
 
-def mean_squared_error_sgd(y, tx, initial w, max_iters, gamma):
+def mean_squared_error_sgd(y, tx, initial_w, max_iters, gamma):
     "Linear regression using stochastic gradient descent"
 
     return NotImplementedError
