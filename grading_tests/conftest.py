@@ -80,7 +80,7 @@ def github_repo_path() -> pathlib.Path:
 def student_implementations(github_repo_path: pathlib.Path):
     sys.path.insert(0, str(github_repo_path.resolve()))
     loader = importlib.machinery.SourceFileLoader(
-        "student_implementations", str(github_repo_path / "implementations.py")
+        "student_implementations", str(github_repo_path / "functions.py")
     )
     handle = loader.load_module("student_implementations")
     return handle
