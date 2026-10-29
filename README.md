@@ -42,7 +42,8 @@ Team: Erine Genilloud, Lou Colombies, Chloé Achtari
 | `experiments_features.py` | Ablation study of the feature engineering and choice of λ → `results/feature_ablation.md` |
 | `experiments_baselines.py` | Comparison with baseline models → `results/model_comparison.md` |
 | `results/` | Result tables used in the report |
-| `notebooks/KNN.py` | K-Nearest Neighbours method, exporatory (very long)|
+| `notebooks/KNN.py` | K-Nearest Neighbours methods, exporatory|
+| `notebooks/KNN.ipynb` | K-Nearest Neighbours implementation, exlporatory (very long)|
 | `notebooks/svm.py` | Linear SVM (subgradient descent and dual coordinate ascent) |
 | `notebooks/data_visualization.ipynb` | Exploratory data analysis (missing values) |
 | `notebooks/newton_run.ipynb` | Newton's method on a 80/20 train/validation split |
