@@ -38,11 +38,12 @@ Team: Erine Genilloud, Lou Colombies, Chloé Achtari
 | `preprocessing.py` | Data cleaning and feature engineering (see below) |
 | `newton.py` | Regularized logistic regression trained with Newton's method |
 | `cross_validation.py` | Stratified K-fold CV, F1 score, F1-optimal threshold, final training |
-| `svm.py` | Linear SVM (subgradient descent and dual coordinate ascent), explored model |
 | `helpers.py` | Data loading and submission writing (provided by the course) |
 | `experiments_features.py` | Ablation study of the feature engineering and choice of λ → `results/feature_ablation.md` |
 | `experiments_baselines.py` | Comparison with baseline models → `results/model_comparison.md` |
 | `results/` | Result tables used in the report |
+| `notebooks/KNN.py` | K-Nearest Neighbours method, exporatory (very long)|
+| `notebooks/svm.py` | Linear SVM (subgradient descent and dual coordinate ascent) |
 | `notebooks/data_visualization.ipynb` | Exploratory data analysis (missing values) |
 | `notebooks/newton_run.ipynb` | Newton's method on a 80/20 train/validation split |
 | `notebooks/svm_run.ipynb` | Linear SVM on the same split (comparison with Newton) |
@@ -81,7 +82,6 @@ The 6 functions of `implementations.py` pass the course's public tests
 
 ## Use of AI tools
 
-We used an AI assistant (Claude, Anthropic) to help write parts of the code
-(preprocessing, cross-validation, Newton's method, SVM, experiment scripts),
-the comments and docstrings, and this README. All modelling choices, results and
+We used an AI assistant (Claude) to help write parts of the code and
+comments. All modelling choices, results and
 the report were checked and are understood by the team.
