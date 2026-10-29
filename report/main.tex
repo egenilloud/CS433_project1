@@ -77,8 +77,8 @@ blood pressure, high cholesterol, smoking, BMI). This gives $264$ features.
 gradient descent and normal equations, ridge regression, and logistic regression
 without and with L2 regularization by gradient descent.
 
-\textbf{Explored models.} We also tried k-nearest neighbors (KNN), LOU
-and a linear SVM with class weights to compensate for the imbalance. On the same
+\textbf{Explored models.} We also tried k-nearest neighbors (KNN), but with large n and large d, kNN is impractical, as each prediction requires computing distances to all training points in a high-dimensional space, which is both costly in time and memory and less meaningful due to the curse of dimensionality.
+We also implemented linear SVM with class weights to compensate for the imbalance. On the same
 validation set and with a tuned threshold, the SVM reached an F1 of $0.420$, below
 logistic regression ($0.429$). It was also much slower: after 10 passes over the data
 it had not fully converged (duality gap of $0.03$), and more than half of the training
