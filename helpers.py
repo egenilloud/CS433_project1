@@ -66,7 +66,7 @@ def load_csv_data(data_path, sub_sample=False):
 
 def create_csv_submission(ids, y_pred, name):
     """
-    This function creates a csv file named 'name' in the format required for a submission in Kaggle or AIcrowd.
+    This function creates a csv file named 'name' in the format required for submission in AIcrowd.
     The file will contain two columns the first with 'ids' and the second with 'y_pred'.
     y_pred must be a list or np.array of 1 and -1 otherwise the function will raise a ValueError.
 

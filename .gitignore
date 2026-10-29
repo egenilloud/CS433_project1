@@ -10,3 +10,14 @@ data/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+# Local only
+avant_claude/
+.DS_Store
+.vscode/
+.Rhistory
+
+# Generated outputs
+submission*.csv
+report/*.aux
+report/*.log
+report/*.out

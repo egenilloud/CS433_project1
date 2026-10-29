@@ -1,1 +1,0 @@
-# Functions to use for all models (which are not in implementations)
